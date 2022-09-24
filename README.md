@@ -33,11 +33,7 @@ One major obstacle that we ran into initially was the accuracy of our LSTM model
 
 ## Accomplishments that we're proud of
 
-One of our major accomplishments was determining the ideal LSTM model architecture for our dataset and obtaining a very low RMSE (root-mean-square error). Based on online research, we determined that we had to weaken our model (by increasing the dropout rate and lowering the number of neurons) in order to improve our accuracy, but we eventually realized that for our situation, increasing the potency of the model (decreasing dropout rate and increasing the number of neurons) was more optimal. Our final model architecture is shown below:
-
-In order to resolve the matter of daily updates to vaccination data, we used Google Cloud Platform to obtain a Virtual Machine capable of automatically retraining LSTM models every 24 hours with new data. The VM calculated new predictions and VNIs, updating the Dash frontend in the process. This both expedited and automated the process of daily updates.
-
-We are also proud of how we designed the vaccineNeed interface. Using Dash, we built a user-friendly dashboard of relevant data that serves its purpose effectively.
+One of our major accomplishments was determining the ideal LSTM model architecture for our dataset and obtaining a very low RMSE (root-mean-square error). Based on online research, we determined that we had to weaken our model (by increasing the dropout rate and lowering the number of neurons) in order to improve our accuracy, but we eventually realized that for our situation, increasing the potency of the model (decreasing dropout rate and increasing the number of neurons) was more optimal. We are also proud of how we designed the vaccineNeed interface. Using Dash, we built a user-friendly dashboard of relevant data that serves its purpose effectively.
 
 ## What we learned
 
